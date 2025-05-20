@@ -112,7 +112,7 @@ export const ConnectPlatforms = (): JSX.Element => {
                       </h3>
                     </div>
                     <Button
-                      variant="inline"
+                      variant="default"
                       size="icon"
                       className={`w-8 h-8 rounded-sm ${selectedPlatforms.includes(platform.id)
                           ? 'bg-[#262626] text-[#B5FF4D] hover:bg-grey-600'
